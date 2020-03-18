@@ -323,6 +323,12 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
 
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    adreno-legacy \
+    bt \
+    perf
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
